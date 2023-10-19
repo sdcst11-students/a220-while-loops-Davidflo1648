@@ -29,3 +29,16 @@ Access granted
 
 
 """
+username = ""
+password = ""
+guess = True
+
+while guess:
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+    if username == "admin" and password == "12345":
+        print("Access granted")
+        guess = False
+        break
+    else:
+        print("Access denied")
