@@ -20,3 +20,8 @@ Example:
 10
 ...
 """
+num = 2
+
+while num < 20:
+    print(num + 2)
+    num += 2
