@@ -20,7 +20,7 @@ Example:
 10
 ...
 """
-num = 2
+num = 0
 
 while num < 20:
     print(num + 2)
