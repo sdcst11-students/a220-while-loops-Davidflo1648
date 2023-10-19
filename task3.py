@@ -19,3 +19,7 @@ Enter number:4
 That is an even integer
 
 """
+num = float(input())
+
+while num <= 10:
+    print(num)
